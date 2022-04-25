@@ -1,0 +1,93 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+      + TOOLS_DIR=/opt/hostedtoolcache/CodeQL/0.0.0-20220401/x64/codeql/cpp/tools
++ /opt/hostedtoolcache/CodeQL/0.0.0-20220401/x64/codeql/cpp/tools/detect_source_root
++ '[' -L _lgtm_detected_source_root ']'
+++ readlink _lgtm_detected_source_root
++ cd .
++ export CXXFLAGS=-fpermissive
++ CXXFLAGS=-fpermissive
++ configure_prefix_opt=
++ '[' -f configure.ac ']'
++ '[' -f configure.in ']'
++ '[' -f CMakeLists.txt ']'
++ '[' -f meson.build ']'
++ try_configure
++ build_dir=.
++ root_dir=.
++ grep -q 'AC_MSG_.* configure in a separate.* directory' configure.in configure.ac
++ for configure in configure configure.gnu
++ '[' -x configure ']'
++ for configure in configure configure.gnu
++ '[' -x configure.gnu ']'
++ rm -rf _lgtm_build_dir
++ for bootstrap in bootstrap.sh bootstrap autogen.sh
++ '[' -x bootstrap.sh ']'
++ '[' -f bootstrap.sh ']'
++ for bootstrap in bootstrap.sh bootstrap autogen.sh
++ '[' -x bootstrap ']'
++ '[' -f bootstrap ']'
++ for bootstrap in bootstrap.sh bootstrap autogen.sh
++ '[' -x autogen.sh ']'
++ '[' -f autogen.sh ']'
++ '[' -f wscript ']'
++ '[' -f Kbuild ']'
++ '[' -f configure.ac ']'
++ '[' -f configure.in ']'
+++ echo './*.pro'
++ '[' './*.pro' '!=' './*.pro' ']'
++ exit 0
++ export VERBOSE=1
++ VERBOSE=1
++ '[' -L _lgtm_detected_source_root ']'
+++ readlink _lgtm_detected_source_root
++ cd .
++ '[' -d _lgtm_build_dir ']'
++ '[' -f SConstruct ']'
++ '[' -f wscript ']'
++ '[' -f Makefile ']'
++ '[' -f makefile ']'
++ '[' -f GNUmakefile ']'
++ '[' -f build.ninja ']'
++ '[' -d ../_lgtm_build_dir ']'
++ for f in build build.sh
++ '[' -x build ']'
++ for f in build build.sh
++ '[' -x build.sh ']'
++ '[' -f setup.py ']'
++ echo 'Semmle autobuild: no supported build system detected.'
++ exit 1
