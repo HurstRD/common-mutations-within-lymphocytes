@@ -1,0 +1,18 @@
+2022-04-07 13:14:28	Geetest
+GT3Version-->4.3.5.3
+2022-04-07 13:14:28	Geetest
+Lang-->en, Default Lang-->en
+2022-04-07 13:14:28	Geetest
+Parsed Lang-->en
+2022-04-07 13:14:28	Geetest
+startCustomFlow
+2022-04-07 13:14:28	Geetest
+custom view is null
+2022-04-07 13:14:28	Geetest
+showLoading-->Success !
+2022-04-07 13:14:28	Geetest
+API1 result--> null
+2022-04-07 13:14:28	Geetest
+api1接口错误，错误码为：205-->api1 result is null !
+2022-04-07 13:14:28	Geetest
+ErrorBean{errorCode='205', errorDesc='api1 result is null !  {1.检查网络是否异常; 2.检查api1是否有数据返回，如果有数据返回是否符合规则; 3.检查是否和服务正常通信 }', duration=3, challenge='null', type='Sensebot', sdkVersion='4.3.5.3', isChangeDesc=false}
