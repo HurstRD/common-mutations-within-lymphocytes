@@ -1,0 +1,28 @@
+{
+    "country": {"resource": "http://sws.geonames.org/6252001/"},
+    "address": {"postalAddress": {"addressCountry": "usa"}},
+    "inScheme": {"resource": "http://data.crossref.org/fundingdata/vocabulary"},
+    "created": "2017-03-27T21:17:58.0",
+    "prefLabel": {"Label": {
+        "literalForm": {
+            "lang": "en",
+            "content": "Institute for a Secure and Sustainable Environment, University of Tennessee"
+        },
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-3199272"
+    }},
+    "altLabel": {"Label": {
+        "literalForm": {
+            "lang": "en",
+            "content": "ISSE"
+        },
+        "usageFlag": {"resource": "http://data.crossref.org/fundingdata/vocabulary/acronym"},
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-12977684"
+    }},
+    "fundingBodyType": "gov",
+    "fundingBodySubType": "Universities (academic only)",
+    "modified": "2019-06-24T23:11:20.0",
+    "id": "https://doi.org/10.13039/100011413",
+    "broader": {"resource": "http://dx.doi.org/10.13039/100007135"},
+    "state": {"resource": "http://sws.geonames.org/4662168/"},
+    "region": "Americas"
+}

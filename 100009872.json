@@ -1,0 +1,21 @@
+{
+    "country": {"resource": "http://sws.geonames.org/6252001/"},
+    "address": {"postalAddress": {"addressCountry": "usa"}},
+    "affilWith": {"resource": "http://dx.doi.org/10.13039/100007271"},
+    "inScheme": {"resource": "http://data.crossref.org/fundingdata/vocabulary"},
+    "created": "2016-04-08T19:59:46.0",
+    "prefLabel": {"Label": {
+        "literalForm": {
+            "lang": "en",
+            "content": "Neuroscience Institute, University of Tennessee"
+        },
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-8976495"
+    }},
+    "fundingBodyType": "gov",
+    "fundingBodySubType": "Universities (academic only)",
+    "modified": "2020-09-17T21:03:33.000000",
+    "id": "https://doi.org/10.13039/100009872",
+    "broader": {"resource": "http://dx.doi.org/10.13039/100007135"},
+    "state": {"resource": "http://sws.geonames.org/4662168/"},
+    "region": "Americas"
+}

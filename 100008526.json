@@ -1,0 +1,28 @@
+{
+    "country": {"resource": "http://sws.geonames.org/6252001/"},
+    "address": {"postalAddress": {"addressCountry": "usa"}},
+    "inScheme": {"resource": "http://data.crossref.org/fundingdata/vocabulary"},
+    "created": "2015-03-24T20:17:13.0",
+    "prefLabel": {"Label": {
+        "literalForm": {
+            "lang": "en",
+            "content": "University of Tennessee Space Institute"
+        },
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-4884743"
+    }},
+    "altLabel": {"Label": {
+        "literalForm": {
+            "lang": "en",
+            "content": "UTSI"
+        },
+        "usageFlag": {"resource": "http://data.crossref.org/fundingdata/vocabulary/acronym"},
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-4884744"
+    }},
+    "fundingBodyType": "gov",
+    "fundingBodySubType": "Universities (academic only)",
+    "modified": "2020-09-17T20:55:16.000000",
+    "id": "https://doi.org/10.13039/100008526",
+    "broader": {"resource": "http://dx.doi.org/10.13039/100007135"},
+    "state": {"resource": "http://sws.geonames.org/4662168/"},
+    "region": "Americas"
+}

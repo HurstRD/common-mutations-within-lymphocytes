@@ -1,0 +1,37 @@
+{
+    "country": {"resource": "http://sws.geonames.org/6252001/"},
+    "address": {"postalAddress": {"addressCountry": "usa"}},
+    "inScheme": {"resource": "http://data.crossref.org/fundingdata/vocabulary"},
+    "created": "2016-01-18T20:39:39.0",
+    "prefLabel": {"Label": {
+        "literalForm": {
+            "lang": "en",
+            "content": "College of Veterinary Medicine, University of Tennessee"
+        },
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-8385790"
+    }},
+    "altLabel": [
+        {"Label": {
+            "literalForm": {
+                "lang": "en",
+                "content": "UT College of Veterinary Medicine"
+            },
+            "about": "http://data.crossref.org/fundingdata/vocabulary/Label-8385791"
+        }},
+        {"Label": {
+            "literalForm": {
+                "lang": "en",
+                "content": "CVM, UT"
+            },
+            "usageFlag": {"resource": "http://data.crossref.org/fundingdata/vocabulary/acronym"},
+            "about": "http://data.crossref.org/fundingdata/vocabulary/Label-8385792"
+        }}
+    ],
+    "fundingBodyType": "gov",
+    "fundingBodySubType": "Universities (academic only)",
+    "modified": "2019-06-24T23:11:14.0",
+    "id": "https://doi.org/10.13039/100009774",
+    "broader": {"resource": "http://dx.doi.org/10.13039/100007135"},
+    "state": {"resource": "http://sws.geonames.org/4662168/"},
+    "region": "Americas"
+}

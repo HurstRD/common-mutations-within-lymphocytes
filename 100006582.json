@@ -1,0 +1,37 @@
+{
+    "country": {"resource": "http://sws.geonames.org/6252001/"},
+    "address": {"postalAddress": {"addressCountry": "usa"}},
+    "inScheme": {"resource": "http://data.crossref.org/fundingdata/vocabulary"},
+    "created": "2014-01-21T18:17:07.0",
+    "prefLabel": {"Label": {
+        "literalForm": {
+            "lang": "en",
+            "content": "College of Dentistry, University of Tennessee"
+        },
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-449058"
+    }},
+    "altLabel": [
+        {"Label": {
+            "literalForm": {
+                "lang": "en",
+                "content": "Alumni Funds of the College of Dentistry"
+            },
+            "about": "http://data.crossref.org/fundingdata/vocabulary/Label-449059"
+        }},
+        {"Label": {
+            "literalForm": {
+                "lang": "en",
+                "content": "UT"
+            },
+            "usageFlag": {"resource": "http://data.crossref.org/fundingdata/vocabulary/acronym"},
+            "about": "http://data.crossref.org/fundingdata/vocabulary/Label-449060"
+        }}
+    ],
+    "fundingBodyType": "pri",
+    "fundingBodySubType": "Universities (academic only)",
+    "modified": "2020-09-17T22:52:40.000000",
+    "id": "https://doi.org/10.13039/100006582",
+    "broader": {"resource": "http://dx.doi.org/10.13039/100007135"},
+    "state": {"resource": "http://sws.geonames.org/4662168/"},
+    "region": "Americas"
+}
